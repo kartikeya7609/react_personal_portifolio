@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                     <div>
                       <p className="text-gray-400 text-sm">Email</p>
                       <a href="mailto:your.email@example.com" className="text-white hover:text-[#00ff9d] transition-colors">
-                        your.email@example.com
+                        kartikeyakk2007@gmail.com
                       </a>
                     </div>
                   </div>
@@ -80,8 +80,8 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">Phone</p>
-                      <a href="tel:+1234567890" className="text-white hover:text-[#00ff9d] transition-colors">
-                        +1 (234) 567-890
+                      <a href="tel:+91 6301641669" className="text-white hover:text-[#00ff9d] transition-colors">
+                        +91 6301641669
                       </a>
                     </div>
                   </div>
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">Location</p>
-                      <p className="text-white">Your City, Country</p>
+                      <p className="text-white">Durgapur,India</p>
                     </div>
                   </div>
                 </div>
@@ -101,10 +101,10 @@ const Contact: React.FC = () => {
                 <h3 className="text-2xl font-semibold mb-4 text-[#00ff9d]">Social Links</h3>
                 <div className="flex space-x-4">
                   {[
-                    { icon: 'fab fa-github', url: 'https://github.com/yourusername' },
-                    { icon: 'fab fa-linkedin', url: 'https://linkedin.com/in/yourusername' },
-                    { icon: 'fab fa-twitter', url: 'https://twitter.com/yourusername' },
-                    { icon: 'fab fa-instagram', url: 'https://instagram.com/yourusername' }
+                    { icon: 'fab fa-github', url: 'https://github.com/kartikeya7609' },
+                    { icon: 'fab fa-linkedin', url: 'www.linkedin.com/in/meher-sri-kartikeya-kotha-135997217' },
+                    { icon: 'fab fa-twitter', url: 'https://twitter.com/kotha_mehe43188' },
+                    { icon: 'fab fa-instagram', url: 'https://instagram.com/k_m_s_k_7' }
                   ].map((social, index) => (
                     <Motion.a
                       key={index}
@@ -215,5 +215,6 @@ const Contact: React.FC = () => {
     </section>
   );
 };
+
 
 export default Contact; 
