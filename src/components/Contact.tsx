@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState, useRef } from 'react';
 import { motion as Motion, AnimatePresence } from 'framer-motion';
 import emailjs from '@emailjs/browser';

@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState, useEffect } from 'react';
 import { motion as Motion } from 'framer-motion';
 import profilePic from '../assets/Kartikeya Profile.jpeg';
